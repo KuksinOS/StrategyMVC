@@ -14,7 +14,7 @@ namespace StrategyMVC
         static void Main(string[] args)
         {
             
-
+            //test
                TypesController typesController = new TypesController();
                 typesController.Add(new Types { TypesId = 1, TypesName = "Товар" });
                 typesController.Add(new Types { TypesId = 2, TypesName = "Услуга" });
